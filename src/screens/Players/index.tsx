@@ -4,7 +4,7 @@ import { Filter } from "@components/Filter";
 import { Header } from "@components/Header";
 import { Highlight } from "@components/Highlight";
 import { Input } from "@components/Input";
-import { Container, Form, HeaderList, NumbersOfPlayers } from "./styles";
+import { Container, Form, HeaderList, NumberOfPlayers } from "./styles";
 import { useState } from "react";
 import { PlayerCard } from "@components/PlayerCard";
 import { ListEmpty } from "@components/ListEmpty";
@@ -47,9 +47,9 @@ export function Players() {
           horizontal
         />
 
-        <NumbersOfPlayers>
+        <NumberOfPlayers>
           {players.length}
-        </NumbersOfPlayers>
+        </NumberOfPlayers>
       </HeaderList>
 
       <FlatList
