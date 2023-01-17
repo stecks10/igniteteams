@@ -2,9 +2,9 @@ import { StatusBar } from 'react-native';
 import { ThemeProvider } from 'styled-components';
 import {
   useFonts,
-  Poppins_400Regular,
-  Poppins_700Bold
-} from '@expo-google-fonts/poppins';
+  Inter_400Regular,
+  Inter_700Bold
+} from '@expo-google-fonts/inter';
 
 import { Loading } from '@components/Loading';
 
@@ -13,8 +13,8 @@ import { Routes } from '@routes/index';
 
 export default function App() {
   const [fontsLoaded] = useFonts({
-    Poppins_400Regular
-    , Poppins_700Bold
+    Inter_400Regular,
+    Inter_700Bold
   })
 
   return (

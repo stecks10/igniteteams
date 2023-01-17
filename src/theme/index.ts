@@ -17,8 +17,8 @@ export default {
     GRAY_100: "#E1E1E6",
   },
   FONT_FAMILY: {
-    REGULAR: "Poppins_400Regular",
-    BOLD: "Poppins_700Bold",
+    REGULAR: "Inter_400Regular",
+    BOLD: "Inter_700Bold",
   },
   FONT_SIZE: {
     SM: 14,
